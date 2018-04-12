@@ -36,6 +36,7 @@ const items = [
 
 const ShopCard = (props) => {
     return (
+    
     <Row>
         <Col md="3">
             <div className="shopCardDiv">

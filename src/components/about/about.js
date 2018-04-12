@@ -6,6 +6,7 @@ import './about.css';
 export default class About extends Component {
 	render() {
 		return(
+
 			<div className="mainDiv">
 				<Row>
 					<Col sm="12" md="12" lg="12">
