@@ -8,7 +8,7 @@ export default class BookingForm extends React.Component {
           
           <Container>
           <Jumbotron>
-          <h3><strong>How to Book Me / Speaking Engagements</strong></h3><br/>
+          <h3><strong><a id="booking">How to Book Me / Speaking Engagements</a></strong></h3><br/>
           <Row>
           <Col xs="6">
           <Form>            

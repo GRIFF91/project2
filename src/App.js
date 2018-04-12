@@ -7,6 +7,7 @@ import Footer from "./components/footer/footer";
 import ImageCarousel from "./components/carousel/carousel";
 import BookingForm from "./components/bookingForm/bookingForm";
 import ShopCard from "./components/shopCard";
+import ShopTitle from "./components/ShopTitle/shoptitle";
 
 
 
@@ -19,6 +20,7 @@ class App extends Component {
         <ImageCarousel />
         <About />
         <BookingForm />
+        <ShopTitle />
         <ShopCard />
         <Footer />
       </div>

@@ -8,7 +8,7 @@ export default class About extends Component {
 				<br/>
 				<div class="row">
 					<div class="col-sm-12 col-md-12 col-lg-12">
-						<h2><strong>About/ Life Story</strong></h2>
+						<h2><strong><a id="about">About/ Life Story</a></strong></h2>
 					</div>					
 				</div>
 		  		<br/>
