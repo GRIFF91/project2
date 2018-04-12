@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Col, Row } from 'reactstrap';
 
 import Header from "./components/header/header";
 import About from "./components/about/about";
@@ -17,20 +16,7 @@ class App extends Component {
         <Header />
         <ImageCarousel />
         <About />
-          <Row>
-            <Col md="3">
-              <ShopCard />
-            </Col>
-            <Col md="3">
-              <ShopCard />
-            </Col>
-            <Col md="3">
-              <ShopCard />
-            </Col>
-            <Col md="3">
-              <ShopCard />
-            </Col>
-          </Row>
+        <ShopCard />
         <Footer />
       </div>
     );
