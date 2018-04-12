@@ -10,7 +10,7 @@ export default class About extends Component {
 			<div className="mainDiv">
 				<Row>
 					<Col sm="12" md="12" lg="12">
-						<h2><strong>About/ Life Story</strong></h2>	
+						<h2><strong><a id="about">About/ Life Story</a></strong></h2>	
 					</Col>
 				  </Row>
 
