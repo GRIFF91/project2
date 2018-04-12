@@ -1,0 +1,24 @@
+.mainDiv{
+	border: 1px solid;
+	margin: 2%;
+}
+
+/*sub header*/
+.subHdr {
+	font-weight: bold;
+	margin-bottom: 0;
+	padding: 5px;
+}
+
+/*about me*/
+.aboutImg {
+	float: left;
+	padding: 2%;
+	background-color: white;
+}
+
+.aboutPara {
+	padding: 2%;
+	background-color: white;	
+	font-size: 18px;
+}

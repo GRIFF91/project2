@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from "./components/header/header";
+import About from "./components/about/about";
 import Footer from "./components/footer/footer";
 import ImageCarousel from "./components/carousel/carousel";
+
 
 
 class App extends Component {
@@ -12,7 +14,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <ImageCarousel />
-        <h1>Hello World</h1>
+        <About />
         <Footer />
       </div>
     );
