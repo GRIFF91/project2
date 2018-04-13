@@ -2,16 +2,18 @@
 	border: 2px solid;
 	margin: 2%;
 	padding-bottom: 2%;
+	border-radius: 10px;
 }
 
 /*about me*/
 .aboutImg {
-	padding: 2%;
+	margin: 2%;
 	background-color: white;
 }
 
 .aboutPara {
-	padding: 2%;
+	margin: 2%;
 	background-color: white;	
 	font-size: 18px;
+	border-radius: 10px;
 }

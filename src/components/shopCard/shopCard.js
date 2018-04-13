@@ -40,7 +40,7 @@ const ShopCard = (props) => {
     <Row>
         <Col md="3">
             <div className="shopCardDiv">
-                <Card body inverse color="primary">
+                <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                     <CardImg top width="100%" src={items[0].src} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{items[0].title}</CardTitle>
@@ -54,7 +54,7 @@ const ShopCard = (props) => {
 
         <Col md="3">
             <div className="shopCardDiv">
-                <Card body inverse color="primary">
+                <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                     <CardImg top width="100%" src={items[1].src} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{items[1].title}</CardTitle>
@@ -68,7 +68,7 @@ const ShopCard = (props) => {
 
         <Col md="3">
             <div className="shopCardDiv">
-                <Card body inverse color="primary">
+                <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                     <CardImg top width="100%" src={items[2].src} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{items[2].title}</CardTitle>
@@ -82,7 +82,7 @@ const ShopCard = (props) => {
 
         <Col md="3">
             <div className="shopCardDiv">
-                <Card body inverse color="primary">
+                <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
                     <CardImg top width="100%" src={items[3].src} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{items[3].title}</CardTitle>
