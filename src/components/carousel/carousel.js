@@ -76,14 +76,14 @@ export default class ImageCarousel extends Component {
     });
 
     return (
-        <div>
+        <div className="carousel">
             <style>
             {
-                `.carouselItem {
-                    width: 100%;
-                    height: 500px;
+                 `.carouselItem {
+                    width: 100% !important;
+                    height: 350px !important;
                     background: #375e9b;
-                  }`
+                   }`
               }
             </style>
             <Carousel
