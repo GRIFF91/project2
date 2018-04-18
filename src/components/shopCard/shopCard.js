@@ -37,7 +37,7 @@ const items = [
 const ShopCard = (props) => {
     return (
     
-    <Row>
+    <Row className="shopRow">
         <Col md="3">
             <div className="shopCardDiv">
                 <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
