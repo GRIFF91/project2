@@ -1,14 +1,18 @@
 .mainDiv{
-	border: 2px solid;
-	margin: 2%;
+	/* border: 2px solid;
+	border-color: white; */
+	margin: 1%;
 	padding-bottom: 2%;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 }
 
 /*about me*/
 .aboutImg {
-	margin: 2%;
-	background-color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
 }
 
 .aboutPara {

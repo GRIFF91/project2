@@ -1,12 +1,9 @@
 .carousel {
-    width: 100% !important;
-    height: 350px !important;
-    margin-bottom: 20px;
+  
+  margin-bottom: 20px;
   }
   
   .carouselItem  {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    max-height: 375px;
+    width:640px;
+    height:360px;
   }

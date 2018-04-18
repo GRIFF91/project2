@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Col, Row } from 'reactstrap';
 
 import './about.css';
+import headshot from '../../images/headshot.jpg';
 
 export default class About extends Component {
 	render() {
@@ -16,7 +17,7 @@ export default class About extends Component {
 
 				  <Row>
 					<Col sm="12" md="12" lg="3">
-						<img className="aboutImg" src="http://via.placeholder.com/300" alt="My Picture" /> 
+						<img className="aboutImg" src={headshot} alt="My Picture" /> 
 					</Col>
 					<Col sm="12" md="12" lg="9">
 						<p className="aboutPara">Lorem ipsum dolor sit amet, consectetur adipiscing elit,

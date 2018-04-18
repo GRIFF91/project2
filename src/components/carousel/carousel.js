@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
 
 import "./carousel.css";
+import family640x360 from '../../images/family640x360.jpg';
 
 const items = [
   {
@@ -10,7 +11,7 @@ const items = [
     caption: ''
   },
   {
-    src: 'https://cdn3.img.sputniknews.com/images/104907/67/1049076729.jpg',
+    src: family640x360,
     altText: '',
     caption: ''
   },
@@ -79,11 +80,7 @@ export default class ImageCarousel extends Component {
         <div className="carousel">
             <style>
             {
-                 `.carouselItem {
-                    width: 100% !important;
-                    height: 350px !important;
-                    background: #375e9b;
-                   }`
+                 
               }
             </style>
             <Carousel
