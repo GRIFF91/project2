@@ -2,7 +2,7 @@
     background-image: url("https://images.pexels.com/photos/461831/pexels-photo-461831.jpeg?cs=srgb&dl=agriculture-blue-blue-sky-461831.jpg&fm=jpg");
     margin-bottom: 0px;
     color: white;
-    font-family: 'Cantarell', sans-serif;
+    /*font-family: 'Cantarell', sans-serif;*/
  
     /* Set a specific height */
 	height: 100%;
@@ -21,4 +21,8 @@
 
 .jumbotronDiv.jumbotron {
     margin-bottom: 0px;
+}
+
+h1.display-3 {
+    font-size: 3.5rem;
 }
