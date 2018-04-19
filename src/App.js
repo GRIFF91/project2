@@ -8,6 +8,7 @@ import shop from "./pages/shop/shop";
 
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
+import Banner from "./components/banner/banner";
 
 
 
@@ -19,6 +20,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+        <Banner />
           <Header />
             <Switch>
               {<Route exact path="/" component={home} />}
