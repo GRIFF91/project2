@@ -3,7 +3,7 @@ import React from 'react';
 import "./footer.css";
 
 
-const footer = (props) => {
+const Footer = (props) => {
     return (
     <div>
         <footer className="page-footer">
@@ -16,4 +16,4 @@ const footer = (props) => {
     )
 };
 
-export default footer;
+export default Footer;
