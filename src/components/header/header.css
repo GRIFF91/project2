@@ -15,6 +15,6 @@
 
 /* Change the color of links on hover */
 .headerDiv a:hover {
-    background-color: #ddd;
+    background-color: rgb(255, 193, 7);
     color: black;
 }

@@ -1,9 +1,9 @@
 .mainDiv{
-	/* border: 2px solid; */
+	border: 2px solid;
 	color: white; 
-	margin-top: 2%;
+	margin: 2%;
 	padding-bottom: 2%;
-	/* border-radius: 10px; */
+	border-radius: 10px;
 	margin-bottom: 150px;
 
 	/* The image used */
