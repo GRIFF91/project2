@@ -46,7 +46,7 @@ const ShopCard = (props) => {
                         <CardTitle>{items[0].title}</CardTitle>
                         <CardSubtitle>{items[0].price}</CardSubtitle>
                         <CardText>{items[0].description}</CardText>
-                        <Button color="info">Purchase</Button>
+                        <Button color="warning">Purchase</Button>
                     </CardBody>
                 </Card>
             </div>
@@ -60,7 +60,7 @@ const ShopCard = (props) => {
                         <CardTitle>{items[1].title}</CardTitle>
                         <CardSubtitle>{items[1].price}</CardSubtitle>
                         <CardText>{items[1].description}</CardText>
-                        <Button color="info">Purchase</Button>
+                        <Button color="warning">Purchase</Button>
                     </CardBody>
                 </Card>
             </div>
@@ -74,7 +74,7 @@ const ShopCard = (props) => {
                         <CardTitle>{items[2].title}</CardTitle>
                         <CardSubtitle>{items[2].price}</CardSubtitle>
                         <CardText>{items[2].description}</CardText>
-                        <Button color="info">Purchase</Button>
+                        <Button color="warning">Purchase</Button>
                     </CardBody>
                 </Card>
             </div>
@@ -88,7 +88,7 @@ const ShopCard = (props) => {
                         <CardTitle>{items[3].title}</CardTitle>
                         <CardSubtitle>{items[3].price}</CardSubtitle>
                         <CardText>{items[3].description}</CardText>
-                        <Button color="info">Purchase</Button>
+                        <Button color="warning">Purchase</Button>
                     </CardBody>
                 </Card>
             </div>
