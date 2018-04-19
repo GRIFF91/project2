@@ -3,7 +3,15 @@
     margin-bottom: 0px;
     color: white;
     font-family: 'Cantarell', sans-serif;
-
+ 
+    /* Set a specific height */
+	height: 100%;
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .jumbotron {
