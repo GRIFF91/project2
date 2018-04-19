@@ -23,6 +23,7 @@ class App extends Component {
               {<Route exact path="/booking" component={booking} />}
               {<Route exact path="/shop" component={shop} />}
             </Switch>
+          <Footer />
         </div>
       </Router>
     );

@@ -1,19 +1,27 @@
-/* .page-footer {
-    background-color: #6899e8;
-} */
+.page-footer {
+    background-color: #133686;
+    height: 50px;
+} 
 
 #contact {
     color: white;
+    padding-top: 10px;
 }
 
 .fa-facebook {
-    margin-left: 5px;
-    background-color: white;
+    margin-left: 25px;
     font-size: 25px;
+    color: white;
 }
 
 .fa-twitter {
-    margin-left: 5px;
-    background-color: white;
+    margin-left: 25px;
     font-size: 25px;
+    color: white;
+}
+
+.fa-google {
+    margin-left: 25px;
+    font-size: 25px;
+    color: white;
 }
