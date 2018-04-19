@@ -9,7 +9,6 @@ export default class booking extends Component {
 	render() {
 		return(
             <div>
-		<h1>booking</h1>
 		<BookingForm />
             </div>
 		);

@@ -50,9 +50,9 @@ export default class BookingForm extends React.Component {
                               <br />                      
                               <Input type="email" name="email" id="userEmail" placeholder="Enter Email" />                         
                               <br />
-                              <Input type="textarea" name="text" id="exampleText" placeholder="Tell me about yourself"/>
+                              <Input type="textarea" name="text" id="exampleText" maxlength="300" placeholder="Tell me about yourself"/>
                               <br />
-                              <Button type="submit" value="submit" color="primary" block>Request Appointment</Button>
+                              <Button type="submit" color="warning" value="submit" block>Request Appointment</Button>
                               <br />
                                
                         </Form>                 
@@ -60,11 +60,11 @@ export default class BookingForm extends React.Component {
                 </Col>
                     
                 <Col md="5">
-                <Card>
+                    <Card body inverse style={{ backgroundColor: 'rgb(230, 230, 230)'}}>
                         <CardImg className="calendarImg" top width="100%" src={calendar} alt="cardImage" />
                         <CardBody>
                         <CardTitle className="cardTitle">Calendar Event</CardTitle>
-                        <Button color="primary"> Button </Button>
+                        <Button color="warning" > Button </Button>
                         </CardBody>
                     </Card>                    
                 </Col>         
