@@ -15,7 +15,6 @@ export default class home extends Component {
             <div>
                 <ImageCarousel />
                 <About />
-                <Footer />
             </div>
 		);
 	}
