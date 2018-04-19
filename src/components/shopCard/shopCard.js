@@ -40,13 +40,13 @@ const ShopCard = (props) => {
     <Row className="shopRow">
         <Col md="3">
             <div className="shopCardDiv">
-                <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+                <Card body inverse style={{ backgroundColor: 'rgb(2, 135, 175)', borderColor: 'rgb(2, 135, 175)' }}>
                     <CardImg top width="100%" src={items[0].src} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{items[0].title}</CardTitle>
                         <CardSubtitle>{items[0].price}</CardSubtitle>
                         <CardText>{items[0].description}</CardText>
-                        <Button color="warning">Purchase</Button>
+                        <Button color="info">Purchase</Button>
                     </CardBody>
                 </Card>
             </div>
@@ -54,13 +54,13 @@ const ShopCard = (props) => {
 
         <Col md="3">
             <div className="shopCardDiv">
-                <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+                <Card body inverse style={{ backgroundColor: 'rgb(2, 135, 175)', borderColor: 'rgb(2, 135, 175)' }}>
                     <CardImg top width="100%" src={items[1].src} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{items[1].title}</CardTitle>
                         <CardSubtitle>{items[1].price}</CardSubtitle>
                         <CardText>{items[1].description}</CardText>
-                        <Button color="warning">Purchase</Button>
+                        <Button color="info">Purchase</Button>
                     </CardBody>
                 </Card>
             </div>
@@ -68,13 +68,13 @@ const ShopCard = (props) => {
 
         <Col md="3">
             <div className="shopCardDiv">
-                <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+                <Card body inverse style={{ backgroundColor: 'rgb(2, 135, 175)', borderColor: '#rgb(2, 135, 175)' }}>
                     <CardImg top width="100%" src={items[2].src} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{items[2].title}</CardTitle>
                         <CardSubtitle>{items[2].price}</CardSubtitle>
                         <CardText>{items[2].description}</CardText>
-                        <Button color="warning">Purchase</Button>
+                        <Button color="info">Purchase</Button>
                     </CardBody>
                 </Card>
             </div>
@@ -82,13 +82,13 @@ const ShopCard = (props) => {
 
         <Col md="3">
             <div className="shopCardDiv">
-                <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
+                <Card body inverse style={{ backgroundColor: 'rgb(2, 135, 175)', borderColor: 'rgb(2, 135, 175)' }}>
                     <CardImg top width="100%" src={items[3].src} alt="Card image cap" />
                     <CardBody>
                         <CardTitle>{items[3].title}</CardTitle>
                         <CardSubtitle>{items[3].price}</CardSubtitle>
                         <CardText>{items[3].description}</CardText>
-                        <Button color="warning">Purchase</Button>
+                        <Button color="info">Purchase</Button>
                     </CardBody>
                 </Card>
             </div>
