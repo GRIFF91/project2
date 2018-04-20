@@ -2,7 +2,7 @@
 .headerDiv {
     background-color: rgb(2, 135, 175);
     overflow: hidden;
-    padding: 2%;
+    /* padding: 2%; */
 }
 
 /* Style the links inside the navigation bar */
@@ -17,4 +17,22 @@
 .headerDiv a:hover {
     background-color: rgb(255, 193, 7);
     color: black;
+}
+
+/* Grow */
+.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-glow:hover,
+.hvr-glow:focus,
+.hvr-glow:active {
+    transform: scale(1.1);
 }
