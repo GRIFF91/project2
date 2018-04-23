@@ -6,31 +6,30 @@ import './bookingForm.css'
 import calendar from '../../images/calendar.jpeg'
 
 export default class BookingForm extends React.Component {
-    constructor(props){
-        super(props)
+    constructor(){
+        super();
         this.state = {
-            userName: ''
+            userName: '',
+            userEmail: '',
+            aboutYourself: ''
         };
 
-        this.inputChange = this.inputChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+        this.onSubmit = this.onSubmit.bind(this);
 
     }
-    inputChange(event){
-        const target = event.target;
-        const value = target.value;
-        const name = target.name; 
-        console.log("Button clicked");
-
-        this.setState({
-            [name]: value
-        });
+    handleChange(event){
+        this.setState({ [event.target.name]: event.target.value });
     }
-    handleSubmit(event){
-        alert("Name submitted: " + this.state.value);
-        console.log("Name submitted: " + this.state.value);
+
+    onSubmit(event){
+        console.log("User name: " + this.state.userName +
+                    " Email: " + this.state.userEmail +
+                    " About Yoursel: " + this.state.aboutYourself);
         event.preventDefault();
     }
+
+        
     render() {
         return (      
           <div className="container">
@@ -38,22 +37,25 @@ export default class BookingForm extends React.Component {
               <Row>
                   <Col md="7">
                       <div className="subDiv">   
-                          <Form onSubmit={this.handleSubmit}> 
+                          <Form onSubmit={this.onSubmit}> 
                             <h4>Form requirements: </h4>
                             <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
                             industry's standard dummy text ever since the 1500s, when an unknown printer took a 
                             galley of type and scrambled it to make a type specimen book. </p>   
-                              <Input type="text" name="userName" 
-                              value={this.state.value} 
-                              onChange={this.inputChange} 
-                              placeholder="Enter full name" /> 
-                              <br />                      
-                              <Input type="email" name="email" id="userEmail" placeholder="Enter Email" />                         
-                              <br />
-                              <Input type="textarea" name="text" id="exampleText" maxlength="300" placeholder="Tell me about yourself"/>
-                              <br />
-                              <Button type="submit" color="warning" value="submit" block>Request Appointment</Button>
-                              <br />
+                            <Input type="text" name="userName"  
+                                onChange={this.handleChange}
+                                placeholder="Enter full name" /> 
+                            <br />                      
+                            <Input type="email" name="userEmail"  placeholder="Enter Email"  
+                                onChange={this.handleChange}/>                      
+                            <br />
+                            <Input type="textarea" name="aboutYourself" id="exampleText" maxlength="300" placeholder="Tell me about yourself"
+                                onChange={this.handleChange}/>
+                    
+                            <br />
+                            <Button type="submit" color="warning" value="submit" block
+                                onSubmit={this.onSubmit}>Request Appointment</Button>
+                            <br />
                                
                         </Form>                 
                     </div>
