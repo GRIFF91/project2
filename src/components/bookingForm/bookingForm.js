@@ -49,7 +49,7 @@ export default class BookingForm extends React.Component {
                             <Input type="email" name="userEmail"  placeholder="Enter Email"  
                                 onChange={this.handleChange}/>                      
                             <br />
-                            <Input type="textarea" name="aboutYourself" id="exampleText" maxlength="300" placeholder="Tell me about yourself"
+                            <Input type="textarea" name="aboutYourself" id="exampleText" maxLength="300" placeholder="Tell me about yourself"
                                 onChange={this.handleChange}/>
                     
                             <br />
